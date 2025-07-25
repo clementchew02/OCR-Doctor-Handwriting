@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* For label as button */
+    display: inline-block;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+input[type="file"] {
+    display: none; /* Hide default file input */
+}
+
+.canvas-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    background-color: #eee;
+    display: flex; /* For centering content within canvas */
+    justify-content: center;
+    align-items: center;
+}
+
+#imageCanvas {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below canvas */
+}
+
+#webcamVideo {
+    max-width: 100%;
+    height: auto;
+}
+
+.process-button {
+    margin-top: 10px;
+    width: 60%;
+    max-width: 300px;
+}
+
+.loading {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #007bff;
+}
+
+.results-section {
+    margin-top: 30px;
+    text-align: left;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.results-section h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#results p {
+    color: #666;
+}
+
+.result-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.result-item strong {
+    color: #007bff;
+}
+
+.result-item span {
+    color: #333;
+}

@@ -1,0 +1,51 @@
+IMAGE,MEDICINE_NAME,GENERIC_NAME,predicted
+0.png,Aceta,Paracetamol,Aceta
+1.png,Aceta,Paracetamol,Acxal
+2.png,Aceta,Paracetamol,Aceta
+3.png,Aceta,Paracetamol,Aceta
+4.png,Aceta,Paracetamol,Aceta
+5.png,Aceta,Paracetamol,Acxal
+6.png,Aceta,Paracetamol,Aceta
+7.png,Aceta,Paracetamol,Aceta
+8.png,Aceta,Paracetamol,Aceta
+9.png,Aceta,Paracetamol,Aceta
+240.png,Disopan,Clonazepam,Aceta
+241.png,Disopan,Clonazepam,Desopan
+242.png,Disopan,Clonazepam,Acpan
+243.png,Disopan,Clonazepam,Aceta
+244.png,Disopan,Clonazepam,Disopan
+245.png,Disopan,Clonazepam,Disopan
+246.png,Disopan,Clonazepam,Acpa
+247.png,Disopan,Clonazepam,Dispan
+248.png,Disopan,Clonazepam,Aceta
+249.png,Disopan,Clonazepam,Aceta
+330.png,Fixal,Fexofenadine Hydrochloride,Firgel
+331.png,Fixal,Fexofenadine Hydrochloride,Fcxal
+332.png,Fixal,Fexofenadine Hydrochloride,Telxal
+333.png,Fixal,Fexofenadine Hydrochloride,Fixal
+334.png,Fixal,Fexofenadine Hydrochloride,Fixal
+335.png,Fixal,Fexofenadine Hydrochloride,Fixal
+336.png,Fixal,Fexofenadine Hydrochloride,Acxel
+337.png,Fixal,Fexofenadine Hydrochloride,Acgel
+338.png,Fixal,Fexofenadine Hydrochloride,Disopan
+339.png,Fixal,Fexofenadine Hydrochloride,Firgel
+710.png,Sergel,Esomeprazole,Terfast
+711.png,Sergel,Esomeprazole,Disopan
+712.png,Sergel,Esomeprazole,Sergel
+713.png,Sergel,Esomeprazole,Sergel
+714.png,Sergel,Esomeprazole,Sergsl
+715.png,Sergel,Esomeprazole,Sergel
+716.png,Sergel,Esomeprazole,Figel
+717.png,Sergel,Esomeprazole,Serfast
+718.png,Sergel,Esomeprazole,Serxal
+719.png,Sergel,Esomeprazole,Terfast
+730.png,Telfast,Fexofenadine Hydrochloride,Serxal
+731.png,Telfast,Fexofenadine Hydrochloride,Telgal
+732.png,Telfast,Fexofenadine Hydrochloride,Telfpst
+733.png,Telfast,Fexofenadine Hydrochloride,Telfast
+734.png,Telfast,Fexofenadine Hydrochloride,Telfast
+735.png,Telfast,Fexofenadine Hydrochloride,Sergel
+736.png,Telfast,Fexofenadine Hydrochloride,Tilfast
+737.png,Telfast,Fexofenadine Hydrochloride,Telfast
+738.png,Telfast,Fexofenadine Hydrochloride,Telfast
+739.png,Telfast,Fexofenadine Hydrochloride,Sergal

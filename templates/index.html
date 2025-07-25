@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwriting Prescription OCR</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Handwriting Prescription OCR</h1>
+
+        <div class="input-section">
+            <div class="upload-section">
+                <input type="file" id="imageUpload" accept="image/*">
+                <label for="imageUpload" class="button">Upload Image</label>
+            </div>
+            <div class="camera-section">
+                <button id="startCameraButton" class="button">Take Photo</button>
+            </div>
+        </div>
+        
+        <div class="canvas-container">
+            <canvas id="imageCanvas"></canvas>
+            <video id="webcamVideo" style="display: none;"></video>
+        </div>
+        
+        <button id="processButton" class="button process-button" disabled>Process Handwriting</button>
+        
+        <div id="loading" class="loading" style="display: none;">Processing...</div>
+
+        <div class="results-section">
+            <h2>Detected Words & Matches:</h2>
+            <div id="results">
+                <p>Upload an image or take a photo to see results.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
