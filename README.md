@@ -26,31 +26,6 @@ This repository contains the necessary scripts for dataset preparation, model tr
 * **Flask:** Web framework for the application's backend.
 * **HTML/CSS/JavaScript:** For the web application's frontend.
 
-## Project Structure
-.
-app.py                      # Flask web application for OCR inference
-models/                     # Directory to store the trained CRNN model (.pth)
-    -crnn_model.pth          # The trained OCR model
-scripts/
-    -config.py               # Global configurations (image dimensions, characters, model path, target medicines)
-    -filter_dataset.py       # Script to filter the raw dataset for specific medicine names
-    -model_utils.py          # Defines the CRNNModel architecture and utility functions (preprocess, decode)
-    -ocr_predict.py          # Script for evaluating the model on a test dataset and generating predictions.csv
-    -pipeline_extract.py     # Contains functions for segmenting words from full images and predicting them
-    -rain.py                # Script for training the CRNN model
-dataset/
-    -doctors-handwritten-prescription-bd-dataset/
-        -Training/           # Original training images and labels
-        -Validation/         # Original validation images and labels
-        -Testing/            # Original testing images and labels
-        -Filtered/           # Filtered CSVs of labels (created by filter_dataset.py)
-            -filtered_training_labels.csv
-            -filtered_validation_labels.csv
-            -filtered_testing_labels.csv
-templates/
-    -index.html              # Frontend HTML for the Flask app
-requirements.txt            # List of Python dependencies
-README.md                   # This file
 ## Installation
 
 1.  **Clone the repository:**
